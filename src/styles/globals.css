@@ -2,6 +2,56 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer base {
+    h1, h2, h3, h4, p {
+        @apply text-black;
+    }
+    address {
+        @apply text-grey;
+        @apply body;
+        @apply not-italic
+    }
+}
+
+@layer components {
+    .heading-large {
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 33px;
+        letter-spacing: -1px;
+    }
+    .heading-medium {
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 22px;
+        letter-spacing: -0.75px;
+    }
+    .heading-small {
+        font-weight: 700;
+        font-size: 15px;
+        line-height: 24px;
+        letter-spacing: -0.25px;
+    }
+    .heading-small-variant {
+        font-weight: 700;
+        font-size: 15px;
+        line-height: 15px;
+        letter-spacing: -0.25px;
+    }
+    .body {
+        font-weight: 500;
+        font-size: 13px;
+        line-height: 18px;
+        letter-spacing: -0.1px;
+    }
+    .body-variant {
+        font-weight: 500;
+        font-size: 13px;
+        line-height: 15px;
+        letter-spacing: -0.25px;
+    }
+}
+
 html, body {
     height: 100%;
 }

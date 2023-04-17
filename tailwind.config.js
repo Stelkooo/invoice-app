@@ -14,7 +14,7 @@ module.exports = {
         'danger-light': 'FF9797',
         clay: '#7e88c3',
         black: '#0c0e16',
-        'lightest-grey': '#f8f8f8',
+        'lighter-grey': '#f8f8fb',
         'light-grey': '#dfe3fa',
         grey: '#888eb0',
         'dark-grey': '#494E6E',
