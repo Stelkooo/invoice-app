@@ -5,10 +5,11 @@ import ArrowDown from 'public/assets/icon-arrow-down.svg';
 import Button from '@/components/button/button.component';
 import NothingHere from './components/invoices/components/nothing-here/nothing-here.component';
 import Cards from './components/invoices/components/cards/cards.component';
+import Form from '../form/form.component';
 
 export default function Main() {
   return (
-    <main className="mx-auto w-[327px] py-8">
+    <main className="relative mx-auto w-full px-6 py-8">
       <div className="mb-4 flex justify-between">
         <div>
           <h1 className="heading-medium">Invoices</h1>
@@ -29,6 +30,8 @@ export default function Main() {
       </div>
       {/* <NothingHere /> */}
       <Cards />
+      {/* <Form type="edit" /> */}
+      {/* <Form type="create" /> */}
     </main>
   );
 }

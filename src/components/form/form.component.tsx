@@ -119,7 +119,7 @@ export default function Form({ type, invoiceItems, invoiceValues }: Props) {
     setValues({ ...values, [e.target.name]: e.target.value });
   };
   return (
-    <div className="mx-auto w-[327px] pt-8">
+    <div className="absolute inset-0 mx-auto w-full bg-white px-6 pt-8">
       <GoBack />
       <div className="py-6">
         {type === 'create' ? (
